@@ -137,7 +137,9 @@ class _HomeScreenState extends State<HomeScreen> {
                         backgroundColor: Colors.orange,
                         minimumSize: const Size(50, 60)
                     ),
-                    onPressed: (){},
+                    onPressed: (){
+                      BlocProvider.of<CounterCubit>(context).counterEqual();
+                    },
                     child: const Text(
                       "Reset", style: TextStyle(
                         fontSize: 26,color: Colors.black

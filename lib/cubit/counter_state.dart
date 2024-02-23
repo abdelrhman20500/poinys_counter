@@ -3,3 +3,4 @@
 class CounterAIncrementState extends CounterState{}
 
 class CounterBIncrementState extends CounterState{}
+ class CounterEqualState extends CounterState{}
